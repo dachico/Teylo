@@ -29,7 +29,7 @@ export default function LoginPage() {
         setError(result.error);
       } else {
         // Redirect to homepage after successful login
-        router.push('/');
+        router.push('/dashboard');
       }
     } catch (error) {
       setError(`An error occurred. Please try again. ${error}`);
