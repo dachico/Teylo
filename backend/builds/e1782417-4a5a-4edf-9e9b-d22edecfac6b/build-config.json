@@ -1,0 +1,212 @@
+{
+  "projectId": "67efe173c93ce1e0616b5261",
+  "templateId": "67efc756e6b1783f9d7981aa",
+  "gameDesign": {
+    "gameName": "Parasite Protocol",
+    "description": "A first-person shooter where players navigate a derelict space station, battling parasitic aliens while solving environmental puzzles to escape before being consumed.",
+    "genre": "Sci-Fi Horror FPS",
+    "setting": {
+      "type": "Space",
+      "description": "An abandoned, decaying research space station orbiting a gas giant. The station is in partial disrepair, with sections flooded, experiencing gravity fluctuations, and suffering from environmental hazards. It once housed a crew of scientists studying alien organisms, but is now infested with parasitic lifeforms."
+    },
+    "characters": [
+      {
+        "type": "Player",
+        "description": "A lone scavenger who stumbles upon the derelict station while searching for valuable resources. They are resourceful and armed with basic scavenging tools and weaponry."
+      },
+      {
+        "type": "Enemy",
+        "description": "Various forms of parasitic aliens that have infested the station. They range from small, fast-moving creatures to large, heavily armored brutes. Some can manipulate the environment or infect other lifeforms."
+      },
+      {
+        "type": "NPC",
+        "description": "Ghostly echoes of former crew members appear through holographic projections. These provide clues, story fragments, and sometimes, dangerous hints about how to survive and escape."
+      }
+    ],
+    "mechanics": [
+      "Resource Management (Ammunition, Health, Oxygen)",
+      "Environmental Puzzle Solving (Repairing systems, Manipulating gravity, Restoring power)",
+      "Parasite Weakness Exploitation (Discovering and utilizing specific vulnerabilities of different parasite types)"
+    ],
+    "levels": [
+      {
+        "name": "Arrival Bay",
+        "description": "The initial entry point to the station. Players must restore power to open the airlock and find their first weapon.",
+        "difficulty": "Tutorial"
+      },
+      {
+        "name": "Research Labs",
+        "description": "A series of interconnected laboratories where the parasites were originally studied. Contains complex puzzles involving manipulating experiments and restoring environmental controls.",
+        "difficulty": "Medium"
+      },
+      {
+        "name": "Engineering Core",
+        "description": "The heart of the station's life support systems. Players must repair the core to prevent a station-wide collapse and find a means of escape.",
+        "difficulty": "Hard"
+      }
+    ],
+    "assets": {
+      "environment": [
+        "Modular Space Station Corridors",
+        "Derelict Science Labs",
+        "Flooded Sections with Debris"
+      ],
+      "characters": [
+        "Human Scavenger Model",
+        "Small Parasite Model (Scuttler)",
+        "Large Parasite Model (Brute)"
+      ],
+      "items": [
+        "Pistol",
+        "Pulse Rifle",
+        "Repair Tool"
+      ],
+      "audio": [
+        "Ambient Space Station Sounds",
+        "Parasite Hissing and Screeching",
+        "Eerie Music Tracks"
+      ]
+    },
+    "userInterface": [
+      "Health Bar",
+      "Ammunition Counter",
+      "Objective Tracker"
+    ],
+    "gameType": "fps",
+    "suggestedName": "Parasite Protocol"
+  },
+  "assets": [
+    {
+      "name": "Skybox",
+      "category": "Environment",
+      "filename": "skybox.jpg",
+      "type": "texture",
+      "data": {
+        "type": "Buffer",
+        "data": [
+          77,
+          79,
+          67,
+          75,
+          95,
+          83,
+          75,
+          89,
+          66,
+          79,
+          88,
+          95,
+          68,
+          65,
+          84,
+          65
+        ]
+      },
+      "path": "C:\\Users\\dachi\\OneDrive\\Desktop\\Teylo\\assets\\67efe173c93ce1e0616b5261\\skybox.jpg",
+      "projectPath": "Assets/Environment/skybox.jpg"
+    },
+    {
+      "name": "Ground Texture",
+      "category": "Environment",
+      "filename": "ground.jpg",
+      "type": "texture",
+      "data": {
+        "type": "Buffer",
+        "data": [
+          77,
+          79,
+          67,
+          75,
+          95,
+          71,
+          82,
+          79,
+          85,
+          78,
+          68,
+          95,
+          84,
+          69,
+          88,
+          84,
+          85,
+          82,
+          69,
+          95,
+          68,
+          65,
+          84,
+          65
+        ]
+      },
+      "path": "C:\\Users\\dachi\\OneDrive\\Desktop\\Teylo\\assets\\67efe173c93ce1e0616b5261\\ground.jpg",
+      "projectPath": "Assets/Environment/ground.jpg"
+    },
+    {
+      "name": "Gun Model",
+      "category": "Weapons",
+      "filename": "pistol.fbx",
+      "type": "model",
+      "data": {
+        "type": "Buffer",
+        "data": [
+          77,
+          79,
+          67,
+          75,
+          95,
+          71,
+          85,
+          78,
+          95,
+          77,
+          79,
+          68,
+          69,
+          76,
+          95,
+          68,
+          65,
+          84,
+          65
+        ]
+      },
+      "path": "C:\\Users\\dachi\\OneDrive\\Desktop\\Teylo\\assets\\67efe173c93ce1e0616b5261\\pistol.fbx",
+      "projectPath": "Assets/Weapons/pistol.fbx"
+    },
+    {
+      "name": "Enemy Model",
+      "category": "Characters",
+      "filename": "enemy.fbx",
+      "type": "model",
+      "data": {
+        "type": "Buffer",
+        "data": [
+          77,
+          79,
+          67,
+          75,
+          95,
+          69,
+          78,
+          69,
+          77,
+          89,
+          95,
+          77,
+          79,
+          68,
+          69,
+          76,
+          95,
+          68,
+          65,
+          84,
+          65
+        ]
+      },
+      "path": "C:\\Users\\dachi\\OneDrive\\Desktop\\Teylo\\assets\\67efe173c93ce1e0616b5261\\enemy.fbx",
+      "projectPath": "Assets/Characters/enemy.fbx"
+    }
+  ]
+}

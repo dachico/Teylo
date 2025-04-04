@@ -1,7 +1,10 @@
+// app/layout.tsx
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import './globals.css';
 import AuthSessionProvider from '@/components/auth/SessionProvider';
+import { NotificationProvider } from '@/contexts/NotificationContext';
+import Notifications from '@/components/ui/Notifications';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -19,7 +22,10 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className} suppressHydrationWarning>
         <AuthSessionProvider>
-          {children}
+          <NotificationProvider>
+            {children}
+            <Notifications />
+          </NotificationProvider>
         </AuthSessionProvider>
       </body>
     </html>
