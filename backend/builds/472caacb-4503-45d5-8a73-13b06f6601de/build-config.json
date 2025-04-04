@@ -1,0 +1,212 @@
+{
+  "projectId": "67efe281268952117fb0a249",
+  "templateId": "67efc756e6b1783f9d7981aa",
+  "gameDesign": {
+    "gameName": "Parasite Protocol",
+    "description": "A first-person shooter where players navigate a derelict space station, battling grotesque alien parasites and solving environmental puzzles to escape before succumbing to the infestation.",
+    "genre": "Sci-Fi Horror FPS",
+    "setting": {
+      "type": "Space",
+      "description": "The game is set on the 'Ozymandias', a massive research and mining space station orbiting a gas giant. Abandoned decades ago after a catastrophic biological outbreak, it's now infested with alien parasites and shrouded in a chilling silence, broken only by the scuttling of creatures and the creaks of decaying metal."
+    },
+    "characters": [
+      {
+        "type": "Player",
+        "description": "A lone salvage crew member, separated from their team during a reconnaissance mission. They are equipped with basic survival gear and must scavenge for resources and weapons to survive."
+      },
+      {
+        "type": "Enemy",
+        "description": "Various forms of alien parasites, ranging from small, fast-moving 'Crawlers' to large, heavily armored 'Brutes' and parasitic 'Infectors' capable of turning former crew members into monstrous hybrids."
+      },
+      {
+        "type": "NPC",
+        "description": "Echoes - Holographic recordings of the station's former crew members, providing clues and backstory about the outbreak. These cannot be interacted with directly, but serve as a narrative device."
+      }
+    ],
+    "mechanics": [
+      "Resource Management: Scavenging for ammunition, health packs, and upgrade components is crucial for survival.",
+      "Environmental Puzzles: Solving logic puzzles and manipulating the station's systems (power grids, ventilation, etc.) to progress and gain advantages.",
+      "Strategic Combat: Utilizing different weapon types and exploiting enemy weaknesses to overcome challenging encounters."
+    ],
+    "levels": [
+      {
+        "name": "Arrival Bay",
+        "description": "The starting area. A damaged landing bay with debris and signs of a desperate struggle. Introduces basic movement, combat, and puzzle mechanics.",
+        "difficulty": "Tutorial"
+      },
+      {
+        "name": "Research Labs",
+        "description": "A series of interconnected laboratories where the parasites were initially studied. Contains more complex puzzles and introduces new enemy types.",
+        "difficulty": "Medium"
+      },
+      {
+        "name": "Engineering Core",
+        "description": "The heart of the station's power and life support systems. A large, interconnected area with dangerous environmental hazards and a final confrontation.",
+        "difficulty": "Hard"
+      }
+    ],
+    "assets": {
+      "environment": [
+        "Derelict corridors and rooms",
+        "Damaged machinery and equipment",
+        "Gooey alien nests and organic growths"
+      ],
+      "characters": [
+        "Player character model (with customizable appearance)",
+        "Crawler parasite model",
+        "Brute parasite model"
+      ],
+      "items": [
+        "Pistol",
+        "Shotgun",
+        "Health Pack"
+      ],
+      "audio": [
+        "Ambient space station sounds (creaking metal, dripping water)",
+        "Parasite creature sounds (scuttling, hissing, roaring)",
+        "Weapon firing and impact sounds"
+      ]
+    },
+    "userInterface": [
+      "Health bar",
+      "Ammunition counter",
+      "Objective tracker"
+    ],
+    "gameType": "fps",
+    "suggestedName": "Parasite Protocol"
+  },
+  "assets": [
+    {
+      "name": "Skybox",
+      "category": "Environment",
+      "filename": "skybox.jpg",
+      "type": "texture",
+      "data": {
+        "type": "Buffer",
+        "data": [
+          77,
+          79,
+          67,
+          75,
+          95,
+          83,
+          75,
+          89,
+          66,
+          79,
+          88,
+          95,
+          68,
+          65,
+          84,
+          65
+        ]
+      },
+      "path": "C:\\Users\\dachi\\OneDrive\\Desktop\\Teylo\\assets\\67efe281268952117fb0a249\\skybox.jpg",
+      "projectPath": "Assets/Environment/skybox.jpg"
+    },
+    {
+      "name": "Ground Texture",
+      "category": "Environment",
+      "filename": "ground.jpg",
+      "type": "texture",
+      "data": {
+        "type": "Buffer",
+        "data": [
+          77,
+          79,
+          67,
+          75,
+          95,
+          71,
+          82,
+          79,
+          85,
+          78,
+          68,
+          95,
+          84,
+          69,
+          88,
+          84,
+          85,
+          82,
+          69,
+          95,
+          68,
+          65,
+          84,
+          65
+        ]
+      },
+      "path": "C:\\Users\\dachi\\OneDrive\\Desktop\\Teylo\\assets\\67efe281268952117fb0a249\\ground.jpg",
+      "projectPath": "Assets/Environment/ground.jpg"
+    },
+    {
+      "name": "Gun Model",
+      "category": "Weapons",
+      "filename": "pistol.fbx",
+      "type": "model",
+      "data": {
+        "type": "Buffer",
+        "data": [
+          77,
+          79,
+          67,
+          75,
+          95,
+          71,
+          85,
+          78,
+          95,
+          77,
+          79,
+          68,
+          69,
+          76,
+          95,
+          68,
+          65,
+          84,
+          65
+        ]
+      },
+      "path": "C:\\Users\\dachi\\OneDrive\\Desktop\\Teylo\\assets\\67efe281268952117fb0a249\\pistol.fbx",
+      "projectPath": "Assets/Weapons/pistol.fbx"
+    },
+    {
+      "name": "Enemy Model",
+      "category": "Characters",
+      "filename": "enemy.fbx",
+      "type": "model",
+      "data": {
+        "type": "Buffer",
+        "data": [
+          77,
+          79,
+          67,
+          75,
+          95,
+          69,
+          78,
+          69,
+          77,
+          89,
+          95,
+          77,
+          79,
+          68,
+          69,
+          76,
+          95,
+          68,
+          65,
+          84,
+          65
+        ]
+      },
+      "path": "C:\\Users\\dachi\\OneDrive\\Desktop\\Teylo\\assets\\67efe281268952117fb0a249\\enemy.fbx",
+      "projectPath": "Assets/Characters/enemy.fbx"
+    }
+  ]
+}

@@ -1,0 +1,212 @@
+{
+  "projectId": "67efe32b9e89f58b74146fab",
+  "templateId": "67efc756e6b1783f9d7981aa",
+  "gameDesign": {
+    "gameName": "Contagion Protocol",
+    "description": "A first-person shooter with puzzle elements, set on a derelict space station overrun by alien parasites. Players must survive, solve puzzles, and escape before becoming infected.",
+    "genre": "Survival Horror FPS",
+    "setting": {
+      "type": "Space",
+      "description": "A long-abandoned research station orbiting a remote gas giant. The station is deteriorating, dimly lit, and filled with the remnants of its former crew, now hosts to parasitic alien lifeforms."
+    },
+    "characters": [
+      {
+        "type": "Player",
+        "description": "A lone salvage operator who stumbles upon the derelict station, unaware of the horrors within. Resourceful and adaptable, they must scavenge for weapons and tools to survive."
+      },
+      {
+        "type": "Enemy",
+        "description": "Various forms of parasitic alien lifeforms. Some are small and fast, others are large and heavily mutated, each presenting a unique threat. Some can infect the player."
+      },
+      {
+        "type": "NPC",
+        "description": "AI constructs, potentially corrupted, providing fragmented information and limited assistance (or hindrance) to the player."
+      }
+    ],
+    "mechanics": [
+      "Resource Management: Scavenging for ammunition, health packs, and repair tools is crucial for survival.",
+      "Puzzle Solving: Progress requires solving environmental puzzles to unlock doors, reroute power, and disable security systems.",
+      "Parasite Infection: The player is susceptible to infection. Managing infection levels through specific items or actions is necessary to avoid a game over."
+    ],
+    "levels": [
+      {
+        "name": "Arrival Bay",
+        "description": "The initial landing zone, serving as a tutorial area introducing basic movement, combat, and scavenging mechanics.",
+        "difficulty": "Tutorial"
+      },
+      {
+        "name": "Research Labs",
+        "description": "A series of interconnected labs where the parasites were initially studied. Contains complex puzzles involving manipulating lab equipment and deciphering research logs.",
+        "difficulty": "Medium"
+      },
+      {
+        "name": "Engineering Core",
+        "description": "The station's power and life support hub. Heavily infested and requires strategic combat and resource management to navigate. Final escape point.",
+        "difficulty": "Hard"
+      }
+    ],
+    "assets": {
+      "environment": [
+        "Derelict Corridors: Modular corridor sections with varying degrees of decay and debris.",
+        "Research Labs: Science equipment, specimen tanks, and research consoles.",
+        "Engineering Core: Large machinery, exposed wiring, and flickering lights."
+      ],
+      "characters": [
+        "Parasite Larvae: Small, fast-moving creatures that attack in swarms.",
+        "Mutated Hosts: Grotesque, heavily mutated humans controlled by the parasite.",
+        "Security Drones: Malfunctioning security drones that may be hostile or helpful depending on their state."
+      ],
+      "items": [
+        "Pistol: Basic sidearm with limited ammunition.",
+        "Plasma Rifle: More powerful weapon effective against mutated hosts.",
+        "Repair Tool: Used to fix broken machinery and solve puzzles."
+      ],
+      "audio": [
+        "Ambient Noise: Creaking metal, hissing steam, and distant alien noises.",
+        "Combat Sounds: Gunfire, creature screeches, and explosions.",
+        "UI Sound Effects: Beeps, clicks, and alerts."
+      ]
+    },
+    "userInterface": [
+      "Health Bar: Displays the player's current health.",
+      "Ammunition Counter: Shows the remaining ammunition for the equipped weapon.",
+      "Infection Meter: Tracks the player's level of parasite infection."
+    ],
+    "gameType": "fps",
+    "suggestedName": "Contagion Protocol"
+  },
+  "assets": [
+    {
+      "name": "Skybox",
+      "category": "Environment",
+      "filename": "skybox.jpg",
+      "type": "texture",
+      "data": {
+        "type": "Buffer",
+        "data": [
+          77,
+          79,
+          67,
+          75,
+          95,
+          83,
+          75,
+          89,
+          66,
+          79,
+          88,
+          95,
+          68,
+          65,
+          84,
+          65
+        ]
+      },
+      "path": "C:\\Users\\dachi\\OneDrive\\Desktop\\Teylo\\assets\\67efe32b9e89f58b74146fab\\skybox.jpg",
+      "projectPath": "Assets/Environment/skybox.jpg"
+    },
+    {
+      "name": "Ground Texture",
+      "category": "Environment",
+      "filename": "ground.jpg",
+      "type": "texture",
+      "data": {
+        "type": "Buffer",
+        "data": [
+          77,
+          79,
+          67,
+          75,
+          95,
+          71,
+          82,
+          79,
+          85,
+          78,
+          68,
+          95,
+          84,
+          69,
+          88,
+          84,
+          85,
+          82,
+          69,
+          95,
+          68,
+          65,
+          84,
+          65
+        ]
+      },
+      "path": "C:\\Users\\dachi\\OneDrive\\Desktop\\Teylo\\assets\\67efe32b9e89f58b74146fab\\ground.jpg",
+      "projectPath": "Assets/Environment/ground.jpg"
+    },
+    {
+      "name": "Gun Model",
+      "category": "Weapons",
+      "filename": "pistol.fbx",
+      "type": "model",
+      "data": {
+        "type": "Buffer",
+        "data": [
+          77,
+          79,
+          67,
+          75,
+          95,
+          71,
+          85,
+          78,
+          95,
+          77,
+          79,
+          68,
+          69,
+          76,
+          95,
+          68,
+          65,
+          84,
+          65
+        ]
+      },
+      "path": "C:\\Users\\dachi\\OneDrive\\Desktop\\Teylo\\assets\\67efe32b9e89f58b74146fab\\pistol.fbx",
+      "projectPath": "Assets/Weapons/pistol.fbx"
+    },
+    {
+      "name": "Enemy Model",
+      "category": "Characters",
+      "filename": "enemy.fbx",
+      "type": "model",
+      "data": {
+        "type": "Buffer",
+        "data": [
+          77,
+          79,
+          67,
+          75,
+          95,
+          69,
+          78,
+          69,
+          77,
+          89,
+          95,
+          77,
+          79,
+          68,
+          69,
+          76,
+          95,
+          68,
+          65,
+          84,
+          65
+        ]
+      },
+      "path": "C:\\Users\\dachi\\OneDrive\\Desktop\\Teylo\\assets\\67efe32b9e89f58b74146fab\\enemy.fbx",
+      "projectPath": "Assets/Characters/enemy.fbx"
+    }
+  ]
+}
