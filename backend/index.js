@@ -28,6 +28,13 @@ app.use(cors({
   allowedHeaders: ['Content-Type', 'Authorization']
 }));
 
+app.use('/builds', (req, res, next) => {
+  res.setHeader('Access-Control-Allow-Origin', '*');
+  res.setHeader('Access-Control-Allow-Methods', 'GET, OPTIONS');
+  res.setHeader('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
+  express.static(path.join(__dirname, '../builds'))(req, res, next);
+});
+
 // Create required directories
 const setupDirectories = async () => {
   const dirs = [
